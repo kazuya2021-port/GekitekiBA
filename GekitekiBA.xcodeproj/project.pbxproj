@@ -1,0 +1,360 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		820DCBE61FB01A2400F7DE29 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 820DCBE51FB01A2400F7DE29 /* AppDelegate.m */; };
+		820DCBE91FB01A2400F7DE29 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 820DCBE81FB01A2400F7DE29 /* main.m */; };
+		820DCBEC1FB01A2400F7DE29 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 820DCBEB1FB01A2400F7DE29 /* ViewController.m */; };
+		820DCBEE1FB01A2400F7DE29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 820DCBED1FB01A2400F7DE29 /* Assets.xcassets */; };
+		820DCBFA1FB01EC200F7DE29 /* GekitekiBA.m in Sources */ = {isa = PBXBuildFile; fileRef = 820DCBF91FB01EC200F7DE29 /* GekitekiBA.m */; };
+		820DCC901FB01F1900F7DE29 /* ControlAcrobat.m in Sources */ = {isa = PBXBuildFile; fileRef = 820DCC8E1FB01F1900F7DE29 /* ControlAcrobat.m */; };
+		820DCC971FB0204700F7DE29 /* Macro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 820DCC921FB0203900F7DE29 /* Macro.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		820DCC981FB0204700F7DE29 /* Macro.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 820DCC921FB0203900F7DE29 /* Macro.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		820DCC9B1FB0230100F7DE29 /* Scripts in Resources */ = {isa = PBXBuildFile; fileRef = 820DCC9A1FB0230100F7DE29 /* Scripts */; };
+		820DCCCE1FB03EB700F7DE29 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 820DCCCD1FB03EB700F7DE29 /* MainMenu.xib */; };
+		820DCCD21FB0427300F7DE29 /* Setting.m in Sources */ = {isa = PBXBuildFile; fileRef = 820DCCD11FB0427300F7DE29 /* Setting.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		820DCC991FB0204700F7DE29 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				820DCC981FB0204700F7DE29 /* Macro.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		820DCBE11FB01A2400F7DE29 /* GekitekiBA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GekitekiBA.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		820DCBE41FB01A2400F7DE29 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		820DCBE51FB01A2400F7DE29 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		820DCBE81FB01A2400F7DE29 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		820DCBEA1FB01A2400F7DE29 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		820DCBEB1FB01A2400F7DE29 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		820DCBED1FB01A2400F7DE29 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		820DCBF21FB01A2400F7DE29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		820DCBF81FB01EC200F7DE29 /* GekitekiBA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GekitekiBA.h; sourceTree = "<group>"; };
+		820DCBF91FB01EC200F7DE29 /* GekitekiBA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GekitekiBA.m; sourceTree = "<group>"; };
+		820DCC8C1FB01F1900F7DE29 /* AcrobatPro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AcrobatPro.h; sourceTree = "<group>"; };
+		820DCC8D1FB01F1900F7DE29 /* ControlAcrobat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ControlAcrobat.h; sourceTree = "<group>"; };
+		820DCC8E1FB01F1900F7DE29 /* ControlAcrobat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ControlAcrobat.m; sourceTree = "<group>"; };
+		820DCC8F1FB01F1900F7DE29 /* Distiller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Distiller.h; sourceTree = "<group>"; };
+		820DCC921FB0203900F7DE29 /* Macro.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Macro.framework; path = ../ProjectDB/Macro/build/Debug/Macro.framework; sourceTree = "<group>"; };
+		820DCC9A1FB0230100F7DE29 /* Scripts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Scripts; sourceTree = "<group>"; };
+		820DCCCD1FB03EB700F7DE29 /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
+		820DCCCF1FB03FC500F7DE29 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		820DCCD01FB0427300F7DE29 /* Setting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Setting.h; sourceTree = "<group>"; };
+		820DCCD11FB0427300F7DE29 /* Setting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Setting.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		820DCBDE1FB01A2400F7DE29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				820DCC971FB0204700F7DE29 /* Macro.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		820DCBD81FB01A2400F7DE29 = {
+			isa = PBXGroup;
+			children = (
+				820DCBE31FB01A2400F7DE29 /* GekitekiBA */,
+				820DCBE21FB01A2400F7DE29 /* Products */,
+				820DCC911FB0203900F7DE29 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		820DCBE21FB01A2400F7DE29 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				820DCBE11FB01A2400F7DE29 /* GekitekiBA.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		820DCBE31FB01A2400F7DE29 /* GekitekiBA */ = {
+			isa = PBXGroup;
+			children = (
+				820DCC8C1FB01F1900F7DE29 /* AcrobatPro.h */,
+				820DCC8D1FB01F1900F7DE29 /* ControlAcrobat.h */,
+				820DCC8E1FB01F1900F7DE29 /* ControlAcrobat.m */,
+				820DCC8F1FB01F1900F7DE29 /* Distiller.h */,
+				820DCBE41FB01A2400F7DE29 /* AppDelegate.h */,
+				820DCBE51FB01A2400F7DE29 /* AppDelegate.m */,
+				820DCBEA1FB01A2400F7DE29 /* ViewController.h */,
+				820DCBEB1FB01A2400F7DE29 /* ViewController.m */,
+				820DCBED1FB01A2400F7DE29 /* Assets.xcassets */,
+				820DCCCD1FB03EB700F7DE29 /* MainMenu.xib */,
+				820DCBF21FB01A2400F7DE29 /* Info.plist */,
+				820DCBE71FB01A2400F7DE29 /* Supporting Files */,
+				820DCBF81FB01EC200F7DE29 /* GekitekiBA.h */,
+				820DCBF91FB01EC200F7DE29 /* GekitekiBA.m */,
+				820DCC9A1FB0230100F7DE29 /* Scripts */,
+				820DCCD01FB0427300F7DE29 /* Setting.h */,
+				820DCCD11FB0427300F7DE29 /* Setting.m */,
+			);
+			path = GekitekiBA;
+			sourceTree = "<group>";
+		};
+		820DCBE71FB01A2400F7DE29 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				820DCBE81FB01A2400F7DE29 /* main.m */,
+				820DCCCF1FB03FC500F7DE29 /* PrefixHeader.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		820DCC911FB0203900F7DE29 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				820DCC921FB0203900F7DE29 /* Macro.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		820DCBE01FB01A2400F7DE29 /* GekitekiBA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 820DCBF51FB01A2400F7DE29 /* Build configuration list for PBXNativeTarget "GekitekiBA" */;
+			buildPhases = (
+				820DCBDD1FB01A2400F7DE29 /* Sources */,
+				820DCBDE1FB01A2400F7DE29 /* Frameworks */,
+				820DCBDF1FB01A2400F7DE29 /* Resources */,
+				820DCC991FB0204700F7DE29 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GekitekiBA;
+			productName = GekitekiBA;
+			productReference = 820DCBE11FB01A2400F7DE29 /* GekitekiBA.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		820DCBD91FB01A2400F7DE29 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = uchiyama_Macmini;
+				TargetAttributes = {
+					820DCBE01FB01A2400F7DE29 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 247S3F628J;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 820DCBDC1FB01A2400F7DE29 /* Build configuration list for PBXProject "GekitekiBA" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 820DCBD81FB01A2400F7DE29;
+			productRefGroup = 820DCBE21FB01A2400F7DE29 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				820DCBE01FB01A2400F7DE29 /* GekitekiBA */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		820DCBDF1FB01A2400F7DE29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				820DCC9B1FB0230100F7DE29 /* Scripts in Resources */,
+				820DCBEE1FB01A2400F7DE29 /* Assets.xcassets in Resources */,
+				820DCCCE1FB03EB700F7DE29 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		820DCBDD1FB01A2400F7DE29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				820DCBEC1FB01A2400F7DE29 /* ViewController.m in Sources */,
+				820DCBE91FB01A2400F7DE29 /* main.m in Sources */,
+				820DCCD21FB0427300F7DE29 /* Setting.m in Sources */,
+				820DCBE61FB01A2400F7DE29 /* AppDelegate.m in Sources */,
+				820DCC901FB01F1900F7DE29 /* ControlAcrobat.m in Sources */,
+				820DCBFA1FB01EC200F7DE29 /* GekitekiBA.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		820DCBF31FB01A2400F7DE29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		820DCBF41FB01A2400F7DE29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		820DCBF61FB01A2400F7DE29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 247S3F628J;
+				FRAMEWORK_SEARCH_PATHS = /Users/uchiyama_macmini/Documents/ProjectDB/Macro/build/Debug;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PREFIX_HEADER = /Users/uchiyama_macmini/Documents/GekitekiBA/GekitekiBA/PrefixHeader.pch;
+				INFOPLIST_FILE = GekitekiBA/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks/";
+				PRODUCT_BUNDLE_IDENTIFIER = me.kazuya.dev.GekitekiBA;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		820DCBF71FB01A2400F7DE29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 247S3F628J;
+				FRAMEWORK_SEARCH_PATHS = /Users/uchiyama_macmini/Documents/ProjectDB/Macro/build/Debug;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PREFIX_HEADER = /Users/uchiyama_macmini/Documents/GekitekiBA/GekitekiBA/PrefixHeader.pch;
+				INFOPLIST_FILE = GekitekiBA/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks/";
+				PRODUCT_BUNDLE_IDENTIFIER = me.kazuya.dev.GekitekiBA;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		820DCBDC1FB01A2400F7DE29 /* Build configuration list for PBXProject "GekitekiBA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				820DCBF31FB01A2400F7DE29 /* Debug */,
+				820DCBF41FB01A2400F7DE29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		820DCBF51FB01A2400F7DE29 /* Build configuration list for PBXNativeTarget "GekitekiBA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				820DCBF61FB01A2400F7DE29 /* Debug */,
+				820DCBF71FB01A2400F7DE29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 820DCBD91FB01A2400F7DE29 /* Project object */;
+}

@@ -1,0 +1,1 @@
+﻿function sikiiki_action(){//=========色域指定var idClrR = charIDToTypeID( "ClrR" );var desc3 = new ActionDescriptor();var idClrs = charIDToTypeID( "Clrs" );var idClrs = charIDToTypeID( "Clrs" );var idShdw = charIDToTypeID( "Shdw" );desc3.putEnumerated( idClrs, idClrs, idShdw );executeAction( idClrR, desc3, DialogModes.NO );//=========色域指定}sikiiki_action();
